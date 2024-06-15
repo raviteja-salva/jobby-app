@@ -1,0 +1,45 @@
+.filter-group-container {
+  width: 30vw;
+}
+.filter-heading {
+  color: #ffffff;
+  font-size: 25px;
+  font-family: 'Roboto';
+}
+.filter-list-item {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+.checkbox {
+  height: 35px;
+}
+
+ul {
+  list-style-type: none;
+}
+.label-text {
+  color: #f1f5f9;
+  font-size: 17px;
+  font-family: 'Roboto';
+  margin-left: 10px;
+}
+.filter-horizantal-line {
+  border: 1px solid #cbd5e1;
+  margin-top: 30px;
+}
+
+@media (max-width : 575px){
+   .filter-group-container{
+     width: 85vw;
+   }
+   .filter-heading{
+    font-size: 17px;
+   }
+   .label-text{
+     font-size: 13px;
+   }
+   .checkbox{
+      height: 20px;
+   }
+}
