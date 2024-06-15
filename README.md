@@ -41,13 +41,21 @@ Clicking the "Logout" button logs the user out and redirects them to the Login r
 ***Technologies Used:***
 
 *Frontend:*
+
 React JS: Used for building the core user interface and managing application state.
+
 JS (JavaScript): The foundation for building interactive elements and logic within the application.
+
 CSS: Styles the application's visual appearance.
+
 Routing: React Router Manages navigation between different views (Home, Jobs, Login, etc.) based on user actions or URL changes.
+
 API Calls: Handles communication with backend servers to fetch data or send requests using RESTful API principles.
+
 JWT Token: Used for secure user authentication by storing credentials in a token for authorized API access.
+
 Authorization: Defines access control mechanisms for different user roles within the application.
+
 Authentication: Handles user login/logout processes and manages user session information.
 
 ***Note:***
